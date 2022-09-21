@@ -1,7 +1,42 @@
-body{
+body {
     height: 400px;
     background-image: url("img/hospital.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#titulo{
+    text-align: center;
+    margin: auto;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    transition: .3 ease all;
+    
+}
+
+.boton:hover{
+    background: navy;
+}
+
+.contenedor{
+    float: left;
+    height: 480px;
+    padding: 80px;
+    width: 190px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+
 }
